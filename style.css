@@ -128,3 +128,31 @@ li:hover {
   padding: 2rem;
   text-align: center;
 }
+
+/* Smaller screen */
+@media (max-width: 28em) {
+  #examples {
+    flex-direction: column;
+  }
+  
+  #work h2 {
+    margin-left: 0rem;
+    text-align: center;
+  }
+  
+  .project {
+    width: 90%;
+    box-shadow: 0rem 0rem 1rem 0.2rem grey;
+  }
+  
+  #contact h3 {
+    padding-right: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+    #welcome-section h3 {
+    padding: 1rem;
+  }
+}
