@@ -156,3 +156,19 @@ li:hover {
     padding: 1rem;
   }
 }
+
+/* Animations */
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+#welcome-section h1 {
+  animation-name: zoom-in-out;
+  animation-duration: 3s;
+}
