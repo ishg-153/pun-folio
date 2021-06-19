@@ -52,3 +52,49 @@ li:hover {
   color: hsl(263, 10%, 38%);
   font-family: sans-serif;
 }
+
+/* Work */
+#work {
+  margin: 2rem;
+  padding-top: 4rem;
+}
+
+#work h2 {
+  font-family: sans-serif;
+  margin-left: 4rem;
+}
+
+#examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  border-radius: 1rem;
+  width: 30%;
+  margin: 1.2rem;
+}
+
+.project-pic {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.project-title {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.project-info {
+  font-family: sans-serif;
+  color: hsl(263, 10%, 38%);
+  padding: 1rem;
+  text-align: center;
+}
+
+.project:hover {
+  cursor: pointer;
+  box-shadow: 0rem 0rem 1rem 0.2rem grey;
+}
