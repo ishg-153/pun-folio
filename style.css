@@ -1,8 +1,14 @@
 /*Universal*/
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&family=Montserrat&family=Raleway&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Navigation bar */
@@ -24,7 +30,7 @@ li {
   font-size: 1.1rem;
   padding: 1rem 2rem;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 li:hover {
@@ -45,13 +51,14 @@ li:hover {
   color: black;
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-family: serif;
+  font-family: 'Martel Sans', serif;
 }
 
 #welcome-section h3 {
   color: hsl(263, 10%, 38%);
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 /* Work */
 #work {
@@ -60,7 +67,7 @@ li:hover {
 }
 
 #work h2 {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 4rem;
 }
 
@@ -83,12 +90,12 @@ li:hover {
 .project-title {
   text-align: center;
   color: black;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
 
 .project-info {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: hsl(263, 10%, 38%);
   padding: 1rem;
   text-align: center;
