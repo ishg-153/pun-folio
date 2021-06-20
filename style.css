@@ -134,7 +134,7 @@ li:hover {
 }
 
 /* Smaller screen */
-@media (max-width: 600px) {
+@media (max-width: 810px) {
   #examples {
     flex-direction: column;
   }
@@ -145,8 +145,9 @@ li:hover {
   }
   
   .project {
-    width: 90%;
+    width: 80%;
     box-shadow: 0rem 0rem 1rem 0.2rem grey;
+    margin: auto;
   }
   
   #contact h3 {
@@ -155,9 +156,9 @@ li:hover {
   }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 600px) {
   .project {
-    width: 80%;
+    width: 90%;
   }
 }
 
