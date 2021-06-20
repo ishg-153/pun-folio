@@ -134,7 +134,7 @@ li:hover {
 }
 
 /* Smaller screen */
-@media (max-width: 810px) {
+@media (max-width: 600px) {
   #examples {
     flex-direction: column;
   }
@@ -155,6 +155,12 @@ li:hover {
   }
 }
 
+@media (max-width: 810px) {
+  .project {
+    width: 80%;
+  }
+}
+
 @media (max-width: 850px) {
     #welcome-section h3 {
     padding: 1rem;
@@ -162,8 +168,12 @@ li:hover {
 }
 
 @media (max-width: 405px) {
+  ul {
+    flex-direction: column;
+  }
+  
   li {
-    font-size: 1rem;
+    padding: 1rem;
   }
 }
 
