@@ -47,6 +47,10 @@ li:hover {
   height: 100vh;
 }
 
+#welcome-section img {
+  width: 1rem;
+}
+
 #welcome-section h1 {
   color: black;
   font-size: 2rem;
