@@ -174,10 +174,10 @@ li:hover {
 
 #welcome-section h1 {
   animation-name: zoom-in-out;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
 }
 
 #welcome-section img {
   animation-name: zoom-in-out;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
 }
