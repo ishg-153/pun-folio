@@ -165,7 +165,7 @@ li:hover {
 
 @keyframes zoom-in-out {
   0% {
-    transform: scale(0.7, 0.7);
+    transform: scale(0.5, 0.5);
   }
   100% {
     transform: scale(1, 1);
@@ -173,6 +173,11 @@ li:hover {
 }
 
 #welcome-section h1 {
+  animation-name: zoom-in-out;
+  animation-duration: 3s;
+}
+
+#welcome-section img {
   animation-name: zoom-in-out;
   animation-duration: 3s;
 }
