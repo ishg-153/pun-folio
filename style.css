@@ -147,7 +147,7 @@ li:hover {
   .project {
     width: 80%;
     box-shadow: 0rem 0rem 1rem 0.2rem grey;
-    margin: auto 1.2rem;
+    margin: 1.2rem auto;
   }
   
   #contact h3 {
